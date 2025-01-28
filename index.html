@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laith | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Laith Hadid</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Laith Hadid</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-conainer">
+            <img src="./Assets/profile-pic (1) (1).png" alt="Laith Hadid Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1"> Hi, I'm</p>
+            <h1 class="title">Laith Hadid</h1>
+            <p class="section__text__p2">Entrepreneur/Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('./Assets/Laith CV.pdf')"
+                >
+                Download CV
+              </button>
+              <button class="btn btn-color-1"
+                onclick="location.href='./#contact'"
+                >
+                Contact
+              </button>
+            </div>
+            <div id="social-container">
+                <img 
+                src="./Assets/linkedin.png" 
+                alt="My Linkedin Profile"
+                class="icon"
+                onclick="location.href='https://www.linkedin.com/in/laith-hadid-588308243/'"
+                >
+                <img 
+                src="./Assets/github.png" 
+                alt="My github Profile"
+                class="icon"
+                onclick="location.href='https://github.com/LaithH10'"
+                >
+                <img 
+                src="./Assets/instagram (1).png" 
+                alt="My github Profile"
+                class="icon"
+                onclick="location.href='https://www.instagram.com/hadidlaieth/'"
+                >
+                <img 
+                src="./Assets/gmail.png" 
+                alt="Send me an email"
+                class="icon"
+                onclick="location.href='mailto:laiethhadid172@gmail.com'"
+              />
+              
+            </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#about'"
+        />
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know Me</p>
+        <h1 class="title">About Me</h1>
+        <div class="about-container">
+          <!-- Profile Picture -->
+          <div class="section__pic-container">
+            <img 
+              src="./Assets/pixelcut-export.jpeg" 
+              alt="profile picture" 
+              class="about-pic"
+            />
+          </div>
+      
+          <!-- About Details -->
+          <div class="about-details-container">
+            <!-- Education & Experience -->
+            <div class="details-container">
+              <h3>Education</h3>
+              <p>Recommendation letter, Artistique Dental Lab</p>
+              <p>Self-taught in logistics, business management, and e-commerce</p>
+              <p>Dental technology (CAD CAM, Ceramill)</p>
+              <p>Programming, Hogeschool Rotterdam (unfinished)</p>
+            </div>
+            <div class="details-container">
+              <h3>Experience</h3>
+              <p>4+ years <br>Shopify e-commerce and dropshipping</p>
+              <p>3+ years <br>Graphic Design and Branding</p>
+              <p>2+ years <br>Logistics Management</p>
+              <p>2+ years <br>Social Media Marketing</p>
+              <p>2+ years <br>Programming</p>
+            </div>
+      
+            <!-- Text Section -->
+            <div class="text-container">
+              Motivated and versatile professional with experience in logistics management, e-commerce, programming, and dental technology. Skilled in business operations, digital marketing, advanced 3D software, and foundational coding. Known for adaptability, problem-solving, and a strong drive to excel in diverse industries.
+            </div>
+          </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+        />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">What have i done so far</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Logistics Management & Transport Management</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                              src="./Assets/checkmark.png" 
+                              alt="Experience icon" 
+                              class="icon"
+                              />
+                              <div>
+                                <p>Advanced</p>
+                                <h3>Administrative coordination</h3>
+                                <h3>NIWO-Application</h3>
+                                <h3>Fleet optimization</h3>
+                                <h3>Operational efficiency</h3>
+                              </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">E-commerce & Shopify</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                              src="./Assets/checkmark.png" 
+                              alt="Experience icon" 
+                              class="icon"
+                              />
+                              <div>
+                                <p>Advanced</p>
+                                <h3>Shopify store setup</h3>
+                                <h3>Digital marketing</h3>
+                                <h3>Sales analysis</h3>
+                              </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Programming</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                              src="./Assets/checkmark.png" 
+                              alt="Experience icon" 
+                              class="icon"
+                              />
+                              <div>
+                                <p>Intermediate</p>
+                                <h3>Object Oriented Programming [OOP]</h3>
+                                <h3>Front-end development</h3>
+                                <h3>HTML/CSS</h3>
+                                <h3>Python</h3>
+                                <h3>C#</h3>
+                              </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Dental Technician</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                              src="./Assets/checkmark.png" 
+                              alt="Experience icon" 
+                              class="icon"
+                              />
+                              <div>
+                                <p>Basic</p>
+                                <h3>CAD-CAM systems</h3>
+                                <h3>Dental prosthetic design</h3>
+                                <h3>Denture</h3>
+                              </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+      <P class="section__text__p1">Browse my recent</P>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img 
+              src="./Assets/7.png" 
+              alt="project screw retained waxup" 
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Screw Retained Implant Bridge</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.
+            href='./Assets/2019-11-12_00001-021.dentalCAD'">
+              CAD-CAM
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.
+            href=''">
+              Instagram
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img 
+              src="./Assets/1.png" 
+              alt="single  coping molar project" 
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Single Coping Molar</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.
+            href='./Assets/2020-10-21_00001-044.dentalCAD'">
+              CAD-CAM
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.
+            href=''">
+              Instagram
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img 
+              src="./Assets/WhatsApp Image 2025-01-27 at 17.26.01.jpeg" 
+              alt="Bridge Project 44-46" 
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Bridge 44-46</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.
+            href='./Assets/2020-10-21_00001-033.dentalCAD'">
+              CAD-CAM
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.
+            href=''">
+              Instagram
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <!-- Gmail Section -->
+        <div class="contact-info-container">
+          <img 
+            src="./Assets/gmail.png" 
+            alt="Email Icon" 
+            class="icon contact-icon"
+          />
+          <p><a href="mailto:Laiethhadid172@gmail.com">Laiethhadid172@gmail.com</a></p>
+        </div>
+    
+        <!-- LinkedIn Section -->
+        <div class="contact-info-container">
+          <img 
+            src="./Assets/linkedin.png" 
+            alt="LinkedIn Icon" 
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/laith-hadid-588308243/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+        </div>
+    
+        <!-- GitHub Section -->
+        <div class="contact-info-container">
+          <img 
+            src="./Assets/github.png" 
+            alt="GitHub Icon" 
+            class="icon contact-icon"
+          />
+          <p><a href="https://github.com/LaithH10" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        </div>
+    
+        <!-- Instagram Section -->
+        <div class="contact-info-container">
+          <img 
+            src="./Assets/instagram (1).png" 
+            alt="Instagram Icon" 
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.instagram.com/hadidlaieth/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+        </div>
+    
+        <!-- WhatsApp Section -->
+        <div class="contact-info-container">
+          <img 
+            src="./Assets/whatsapp.png" 
+            alt="WhatsApp Icon" 
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://wa.me/31628921619" target="_blank" rel="noopener noreferrer">
+              Direct
+            </a>
+          </p>
+        </div>        
+      </div>
+    </section>    
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Laith Hadid. All rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
